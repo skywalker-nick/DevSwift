@@ -38,6 +38,7 @@ The prerequisites:
 
 (3) All the options for the script are located at the beginning of the script file.
 
-(4) The default authentication method is tempauth and its test account is set to: 
+(4) The default authentication method is tempauth and its test account is set to:
+
     X-Storage-User: test:tester
     X-Storage-Pass: testing
