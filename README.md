@@ -17,10 +17,9 @@ The prerequisites:
         (3) The loop device support is enabled.
 
 Notes:
-
-        (1) The script will generate a loop device for storage nodes with default size 2GB. You can also change it to support huge objects by xfs_growfs tool after deployment or directly changing the parameter in the script file before deployment.
-        (2) The original loop device is created at /mnt/sdb1. Please make sure it is not existed before running the script and you can also change it to meet your environment.
-        (3) All the options for the script are located at the beginning of the script file.
+(1) The script will generate a loop device for storage nodes with default size 2GB. You can also change it to support huge objects by xfs_growfs tool after deployment or directly changing the parameter in the script file before deployment.
+(2) The original loop device is created at /mnt/sdb1. Please make sure it is not existed before running the script and you can also change it to meet your environment.
+(3) All the options for the script are located at the beginning of the script file.
 
 2. Tutorial
 ---------------
