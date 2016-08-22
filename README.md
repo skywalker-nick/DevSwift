@@ -1,4 +1,4 @@
-DevSwift
+-DevSwift-
 ========
 Building the latest OpenStack Swift All-in-One development environment with a simple shell script.
 

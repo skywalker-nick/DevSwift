@@ -175,9 +175,9 @@ pip install -r swift/test-requirements.txt
 
 # configure swift nodes
 config_swift() {
-echo "export SWIFT_TEST_CONFIG_FILE=/etc/swift/test.conf" >> ~/.bashrc
-echo "export PATH=${PATH}:`pwd`/bin:`pwd`/swift/bin" >> ~/.bashrc
-. ~/.bashrc
+echo "export SWIFT_TEST_CONFIG_FILE=/etc/swift/test.conf" >> /etc/profile
+echo "export PATH=${PATH}:`pwd`/bin:`pwd`/swift/bin" >> /etc/profile
+source /etc/profile
 
 # configure each node
 cat << EOF > /etc/swift/proxy-server.conf
